@@ -23,7 +23,7 @@ function movimentaVaquinha(){
 
 function verificarColisao(){
  for (let i = 0; i < imagemCarros.length; i++){
-   colisao = collideRectCircle (xCarros [i], yCarros [i], larguraCarros, alturaCarros, xVaquinha, yVaquinha, 25);
+   colisao = collideRectCircle (xCarros [i], yCarros [i], larguraCarros, alturaCarros, xVaquinha, yVaquinha, 18);
    if (colisao){
      voltaVaquinhaPocisaoInicial();
      somDaColisao.play();
